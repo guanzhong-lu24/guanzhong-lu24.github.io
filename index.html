@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="guanzhong.lu — Data Science student interested in machine learning, deep learning and programming.">
+  <title>guanzhong.lu — Data Science</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="./" aria-label="guanzhong.lu home">guanzhong.lu</a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="#skills" data-i18n="skillsHeading">Skills</a>
+      <a href="#projects" data-i18n="projectsHeading">Projects</a>
+      <a href="#coursework" data-i18n="courseworkHeading">Coursework</a>
+    </nav>
+    <button class="language-button" id="language-toggle" type="button" lang="zh-CN" aria-label="切换为中文" hidden>中文</button>
+  </header>
+
+  <main id="main-content">
+    <section class="intro" aria-labelledby="name">
+      <h1 id="name">guanzhong.lu</h1>
+      <p class="subtitle" data-i18n="subtitle">Data Science</p>
+      <p class="description" data-i18n="description">I’m a Data Science student.</p>
+    </section>
+    <dl class="details">
+      <div class="detail-row">
+        <dt data-i18n="majorLabel">Major</dt>
+        <dd data-i18n="majorValue">Data Science</dd>
+      </div>
+      <div class="detail-row">
+        <dt data-i18n="interestsLabel">Interests</dt>
+        <dd data-i18n="interestsValue">Interested in machine learning, deep learning, and using programming to explore data.</dd>
+      </div>
+    </dl>
+
+    <section class="page-section" id="skills" aria-labelledby="skills-heading">
+      <h2 id="skills-heading" data-i18n="skillsHeading">Skills</h2>
+      <p class="section-intro" data-i18n="skillsIntro">Practical experience and foundations I’m developing through coursework.</p>
+      <dl class="skill-list">
+        <div class="content-row"><dt data-i18n="skill1Title">Linux &amp; virtual machines</dt><dd data-i18n="skill1Text">Hands-on practice with Ubuntu, VMware, basic shell commands and SSH connections.</dd></div>
+        <div class="content-row"><dt data-i18n="skill2Title">Networking &amp; HDFS</dt><dd data-i18n="skill2Text">Practice checking IPv4 connectivity, hostname resolution, DataNode status and HDFS block replication.</dd></div>
+        <div class="content-row"><dt data-i18n="skill3Title">Programming &amp; databases</dt><dd data-i18n="skill3Text">Learning Python, C++ and SQL, including introductory data preparation and relational database concepts.</dd></div>
+        <div class="content-row"><dt data-i18n="skill4Title">Machine learning</dt><dd data-i18n="skill4Text">Studying regression, classification, support vector machines, k-nearest neighbours, kernel methods and decision trees.</dd></div>
+      </dl>
+    </section>
+
+    <section class="page-section" id="projects" aria-labelledby="projects-heading">
+      <h2 id="projects-heading" data-i18n="projectsHeading">Projects</h2>
+      <article class="project">
+        <p class="project-context" data-i18n="project1Context">CSI205 · Group coursework · In progress</p>
+        <h3 data-i18n="project1Title">Amazon Reviews Distributed Analysis</h3>
+        <p data-i18n="project1Text">A group project using HDFS and Spark to analyse Amazon Video Games review data. My work so far focuses on the worker environment, connectivity checks and experiment evidence.</p>
+        <ul>
+          <li data-i18n="project1Point1">Configured my Ubuntu worker environment and checked Java, Python, Hadoop and Spark versions.</li>
+          <li data-i18n="project1Point2">Verified SSH, network connectivity and cluster hostname resolution.</li>
+          <li data-i18n="project1Point3">Confirmed a healthy three-DataNode HDFS test, with two live block replicas and one stored on my worker node.</li>
+        </ul>
+      </article>
+      <article class="project">
+        <p class="project-context" data-i18n="project2Context">ENT207 · Group concept project</p>
+        <h3 data-i18n="project2Title">Touchscreen Monitoring for Edge Computers</h3>
+        <p data-i18n="project2Text">A group concept for an industrial equipment monitoring interface, exploring prioritised alarms, fault diagnosis and maintenance feedback. The work described here is at the design stage.</p>
+      </article>
+      <article class="project">
+        <p class="project-context" data-i18n="project3Context">CSI205 Lab · In progress</p>
+        <h3 data-i18n="project3Title">Personal GitHub Pages Website</h3>
+        <p data-i18n="project3Text">Building a bilingual personal homepage with AI assistance using HTML, CSS and JavaScript. I created the GitHub repository and configured Pages publishing, and I’m preparing the customised page for upload.</p>
+      </article>
+    </section>
+
+    <section class="page-section" id="coursework" aria-labelledby="coursework-heading">
+      <h2 id="coursework-heading" data-i18n="courseworkHeading">Coursework</h2>
+      <p class="section-intro" data-i18n="courseworkIntro">Topics I’m currently studying.</p>
+      <ul class="course-list">
+        <li><h3 data-i18n="course1Title">Machine learning</h3><p data-i18n="course1Text">Regression, classification, model evaluation, SVMs, kNN, kernels and decision trees.</p></li>
+        <li><h3 data-i18n="course2Title">Networking &amp; distributed computing</h3><p data-i18n="course2Text">Network layers, TCP/UDP, IP addressing, virtual machines and HDFS/Spark environments.</p></li>
+        <li><h3 data-i18n="course3Title">Database development &amp; design</h3><p data-i18n="course3Text">SQL queries, PostgreSQL, relational tables, keys and database design foundations.</p></li>
+        <li><h3 data-i18n="course4Title">Statistics &amp; data analysis</h3><p data-i18n="course4Text">Simulation, sampling, standard error, confidence intervals and regression.</p></li>
+        <li><h3 data-i18n="course5Title">C++ programming foundations</h3><p data-i18n="course5Text">Program structure, compilation, input/output, expressions and debugging basics.</p></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span class="footer-name">guanzhong.lu</span>
+    <a href="https://github.com/guanzhong-lu24">GitHub</a>
+  </footer>
+</body>
+</html>
